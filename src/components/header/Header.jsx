@@ -16,6 +16,7 @@ export function Header() {
             </div>
             <nav className={`${style.nav} ${style.right}`}>
                 <a className={style.link} href='/'>Notice</a>
+                <div className={style.line}>|</div> 
                 <a className={style.link} href='/'>Help center</a>
             </nav>
             <div>
